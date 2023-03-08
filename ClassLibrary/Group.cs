@@ -32,7 +32,6 @@ namespace ClassLibrary
                             Special = special
                         };
                         db.Groups.Add(group);
-                        Console.WriteLine("Group => CreateGroups() => " + group.GetCode());
                     }
                 }
                 db.SaveChanges(); 
